@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    
+    
+}
+
+/*Começo da estilização da página sobre*/
+
+.box-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+    
+}
+
+.info{
+    flex: 20%;
+    background-color:#9027b3;
+    text-align: center;
+}
+
+.info > a{
+    display: block;
+    margin-top: 20px;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.info a.active, .info a:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+
+.img{
+    
+    margin: 0 auto;
+    margin-top: 50%;
+    
+}
+
+.img  > img{
+   width: 40%;
+   border: 5px solid #a52aff;
+   border-radius: 50%;
+}
+
+.conteudo{
+    flex: 80%;
+    background-color: white;
+}
+
+.conteudo .info-cont{
+    margin-top: 150px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    max-width: 80%;
+}
+
+.info-cont > span{
+    display: block;
+    font-weight: bold;
+    color:rgb(110,110,110);
+    font-size: 2.4em;
+    margin-bottom: 5%;
+    
+   
+}
+
+.info-cont > h2{
+    display: block;
+    font-size: 2.0em;
+    font-weight: normal;
+    margin-bottom: 5%;
+}
+
+.info-cont > p{
+    font-size: 1.1em;
+    font-weight: normal;
+
+}
+
+.conteudo .redes-sociais{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 30px;
+    font-size: 20px!important;
+
+}
+
+.conteudo .redes-sociais ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.conteudo .redes-sociais ul li{
+    margin: 20px;
+    margin-left: 10px;
+    
+}
+
+
+
+.fa-facebook-f, .fa-instagram, .fa-linkedin{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ccc;
+    background-color: gray;
+    border-radius:50%;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin:hover{
+    color:gray;
+    background-color: #ccc;
+}
+
+@media only screen and (max-width:700px){
+    .box-1{
+        flex-direction: column;
+    
+    }
+    .info{
+       
+        flex:100%;
+    }
+
+    .info > a{
+        font-size: 2.2em;
+    }
+
+    .info > a:last-child{
+        margin-bottom: 10%;
+    }
+
+    .conteudo{
+        flex:100%;
+    }
+    .img{
+    
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        
+    }
+
+    .img  > img{
+        width: 30%;
+        border: 5px solid #a52aff;
+    }
+}
+
+
+
+/*Começo da estilização da pagina 2 experiências*/
+
+.conteudo2{
+flex: 80%;
+background-color:white;
+
+
+    
+
+}
+
+.conteudo2 .info-cont2{
+    display: inline-block;
+    background-color: #ccc;
+    width: 75%;
+    max-width: 70%;
+    margin: 20px 15%  0 15%!important;
+    height: 400px;
+    overflow-y: auto;
+    
+    
+      
+    
+}
+
+.info-cont2 > span{
+    margin-left: 4%;
+    font-size: 2.8em;
+    color: #13a8e8;
+}
+
+.info-cont2 > p{
+    margin-left: 4%;
+    font-size: 1.4em;
+}
+
+.info-cont2 > p > a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.conteudo2 .redes-sociais{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 20px!important;
+
+}
+
+.conteudo2 .redes-sociais ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.conteudo2 .redes-sociais ul li{
+    margin: 20px;
+    margin-left: 10px;
+    
+}
+
+
+
+.fa-facebook-f, .fa-instagram, .fa-linkedin{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ccc;
+    background-color: gray;
+    border-radius:50%;
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-linkedin:hover{
+    color:gray;
+    background-color: #ccc;
+}
